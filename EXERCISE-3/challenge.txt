@@ -1,0 +1,55 @@
+To Reverse "RWANDALOVE" using stack.
+step 1: Define stack
+ stack = []
+step 2: push every letter in stack
+ stack.append("R")
+ stack.append("W")
+ stack.append("A")
+ stack.append("N")
+ stack.append("D")
+ stack.append("A")
+ stack.append("L")
+ stack.append("O")
+ stack.append("V")
+ stack.append("E")
+ print(stack)
+ step 3: we pop the stack but keep every popped element in other stack
+ rev_stack = [
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop()
+ ]
+step 4:  print the new stack
+print (rev_stack)
+
+# python code
+stack = []
+stack.append("R")
+stack.append("W")
+stack.append("A")
+stack.append("N")
+stack.append("D")
+stack.append("A")
+stack.append("L")
+stack.append("O")
+stack.append("V")
+stack.append("E")
+print(stack)
+rev_stack = [
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop(),
+    stack.pop()
+ ]
+print (rev_stack)

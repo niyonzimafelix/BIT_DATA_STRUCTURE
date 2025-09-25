@@ -1,0 +1,4 @@
+Reflection: Why stack gives priority to latest action?
+
+Becouse it use LIFO principal
+which is last-in first-out
